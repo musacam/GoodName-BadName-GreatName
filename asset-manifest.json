@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/GoodName-BadName-GreatName/static/css/main.1769620f.css",
+    "main.js": "/GoodName-BadName-GreatName/static/js/main.9ee9be65.js",
+    "static/js/787.a25955a4.chunk.js": "/GoodName-BadName-GreatName/static/js/787.a25955a4.chunk.js",
+    "index.html": "/GoodName-BadName-GreatName/index.html",
+    "main.1769620f.css.map": "/GoodName-BadName-GreatName/static/css/main.1769620f.css.map",
+    "main.9ee9be65.js.map": "/GoodName-BadName-GreatName/static/js/main.9ee9be65.js.map",
+    "787.a25955a4.chunk.js.map": "/GoodName-BadName-GreatName/static/js/787.a25955a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1769620f.css",
+    "static/js/main.9ee9be65.js"
+  ]
+}

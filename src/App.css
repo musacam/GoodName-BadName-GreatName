@@ -42,6 +42,10 @@
   flex: 0.65;
 }
 
+.jokes {
+  height: 95vh;
+}
+
 .good_name {
   height: 33vh;
   display: flex;
@@ -76,8 +80,9 @@
 }
 
 .box {
-  font-size: 60px;
+  font-size: calc(1vw + 5vh);
   font-weight: bolder;
+  display: flex;
   width: 25%;
   text-align: center;
 }

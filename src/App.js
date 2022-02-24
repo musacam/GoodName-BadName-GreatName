@@ -1,16 +1,17 @@
 import "./App.css";
 import { punchlines } from "./data";
+import { useState } from "react";
 
 function App() {
   const values = Object.values(punchlines);
-  const randomValue = values[parseInt(Math.random() * values.length)];
+  const [number, setNumber] = useState(0);
   const handleChange = () => {
-    window.location.reload();
+    setNumber(parseInt(Math.random() * values.length));
   };
   return (
     <div className="App">
       <div className="poster_column">
-        <div className="punchline">{randomValue.punchline}</div>
+        <div className="punchline">{values[number].punchline}</div>
         <div className="new_joke">
           <button className="joke_button" onClick={handleChange}>
             New Joke
@@ -20,15 +21,15 @@ function App() {
       <div className="goodbadgreat_column">
         <div className="good_name">
           <div className="box">GOOD NAME</div>
-          <div className="about">{randomValue.good_name}</div>
+          <div className="about">{values[number].good_name}</div>
         </div>
         <div className="bad_name">
           <div className="box">BAD NAME</div>
-          <div className="about">{randomValue.bad_name}</div>
+          <div className="about">{values[number].bad_name}</div>
         </div>
         <div className="great_name">
           <div className="box">GREAT NAME</div>
-          <div className="about">{randomValue.great_name}</div>
+          <div className="about">{values[number].great_name}</div>
         </div>
       </div>
     </div>
